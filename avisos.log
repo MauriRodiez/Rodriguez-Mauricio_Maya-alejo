@@ -1,0 +1,12 @@
+[2024-02-2721:51:25] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Model.Odontologo@2471cca7
+[2024-02-2721:51:25] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Model.Odontologo@2471cca7]
+[2024-02-2721:51:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2721:51:53] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}]
+[2024-02-2721:52:49] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2721:52:49] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}]
+[2024-02-2721:53:04] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2721:53:04] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2721:53:04] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2721:53:24] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2721:53:24] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2721:53:24] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
