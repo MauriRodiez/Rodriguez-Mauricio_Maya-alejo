@@ -10,3 +10,241 @@
 [2024-02-2721:53:24] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
 [2024-02-2721:53:24] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
 [2024-02-2721:53:24] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:13:30] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:13:30] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:13:30] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:15:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:15:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:15:53] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:15:53] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:15:53] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:15:54] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:15:54] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:15:54] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:15:54] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:15:54] [ ERROR] [OdontologoDaoH2:77] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2024-02-2722:15:54] [ INFO ] [OdontologoDaoH2:81] Se cerro la conexion!
+[2024-02-2722:15:54] [ INFO ] [OdontologoDaoH2:87] Se listan todos los odontologos[]
+[2024-02-2722:17:00] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:17:00] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:17:00] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:17:01] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:17:01] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:17:01] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:17:01] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:17:01] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:17:01] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:17:01] [ ERROR] [OdontologoDaoH2:77] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2024-02-2722:17:01] [ INFO ] [OdontologoDaoH2:81] Se cerro la conexion!
+[2024-02-2722:17:01] [ INFO ] [OdontologoDaoH2:87] Se listan todos los odontologos[]
+[2024-02-2722:17:51] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:17:51] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:17:51] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:17:51] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:17:51] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:17:51] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:17:51] [ ERROR] [OdontologoDaoH2:77] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2024-02-2722:17:51] [ INFO ] [OdontologoDaoH2:81] Se cerro la conexion!
+[2024-02-2722:17:51] [ INFO ] [OdontologoDaoH2:87] Se listan todos los odontologos[]
+[2024-02-2722:18:54] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:18:54] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:18:54] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:18:54] [ ERROR] [OdontologoDaoH2:38] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+[2024-02-2722:18:54] [ INFO ] [OdontologoDaoH2:42] Se cerro la conexion!
+[2024-02-2722:18:54] [ INFO ] [OdontologoDaoH2:48] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:18:54] [ ERROR] [OdontologoDaoH2:77] Se produjo un error y no es posible cargar los datos Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2024-02-2722:18:54] [ INFO ] [OdontologoDaoH2:81] Se cerro la conexion!
+[2024-02-2722:18:54] [ INFO ] [OdontologoDaoH2:87] Se listan todos los odontologos[]
+[2024-02-2722:21:42] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:21:42] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:21:42] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:21:42] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:21:42] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:21:42] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:22:30] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:22:30] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:22:30] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:22:31] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:22:31] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:22:31] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:22:31] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:22:31] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:22:31] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:29:46] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:29:46] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:29:47] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:29:47] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:29:47] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:29:47] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:29:47] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:29:47] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:32:41] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:32:41] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:32:42] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:32:42] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:32:42] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:32:42] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:34:39] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:34:39] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:34:40] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:34:40] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:34:40] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:34:40] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:34:54] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:40:57] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:40:57] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:40:57] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:40:57] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:40:57] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:40:58] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:40:58] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:40:58] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:40:58] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:41:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:41:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:41:53] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:41:54] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:41:54] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:41:54] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:41:54] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:41:54] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:41:54] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:42:17] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:42:17] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:42:17] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:42:17] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:42:17] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:42:18] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:42:18] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:42:18] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:42:18] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:45:57] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:45:57] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:45:57] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:45:58] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:45:58] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:45:58] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:45:58] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:45:58] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:45:58] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:46:33] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:46:33] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:46:33] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:46:34] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:46:34] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:46:34] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:46:34] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:46:34] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:46:34] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:46:58] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:46:58] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:46:58] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:46:59] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:46:59] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:46:59] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:46:59] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:46:59] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:46:59] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:49:32] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:49:32] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:49:32] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:49:33] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:49:33] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:49:33] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:49:33] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:49:33] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:49:33] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:50:17] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:50:17] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:50:17] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:50:18] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:50:18] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:50:18] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:50:18] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:50:18] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:50:18] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=19, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=20, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:50:49] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=19, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=20, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:54:55] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:54:55] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:54:55] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:54:56] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:54:56] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=21, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:54:56] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:54:56] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=22, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:54:56] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:54:56] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=19, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=20, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=21, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=22, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:57:07] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:57:07] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:57:07] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2722:57:08] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:57:08] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=23, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2722:57:08] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2722:57:08] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=24, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2722:57:08] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2722:57:08] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=19, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=20, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=21, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=22, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=23, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=24, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:01:00] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:01:00] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:01:00] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:01:01] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:01:01] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=25, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:01:01] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:01:01] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=26, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:01:01] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2723:01:01] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=19, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=20, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=21, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=22, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=23, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=24, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=25, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=26, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:07:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:07:53] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:07:53] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:07:54] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:07:54] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=27, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:07:54] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:07:54] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=28, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:07:54] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2723:07:54] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=3, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=4, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=5, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=6, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=7, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=8, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=9, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=10, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=11, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=12, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=13, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=14, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=15, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=16, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=17, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=18, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=19, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=20, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=21, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=22, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=23, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=24, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=25, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=26, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}, Odontologo{id=27, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=28, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:08:35] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:08:35] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:08:35] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:08:36] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:08:36] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:08:36] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:08:36] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:08:36] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2723:08:36] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoH2:46] Se cerro la conexion!
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoH2:52] Se ha creado un registro para odontologo Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoH2:85] Se cerro la conexion!
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoH2:91] Se listan todos los odontologos[Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoEnMemoria:21] Odontologo guardado Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]
+[2024-02-2723:09:49] [ INFO ] [OdontologoDaoEnMemoria:27] La lista de odontologos es: [Odontologo{id=1, matricula='ABC', nombre='Raul', apellido='Martinez'}, Odontologo{id=2, matricula='DFG', nombre='Eduardo', apellido='Gonzalez'}]

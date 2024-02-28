@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77754cf8-661d-4882-9325-69ad915b935b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/OdontologoServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parcial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dao/Implementacion/OdontologoDaoEnMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Implementacion/OdontologoDaoEnMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avisos.log" beforeDir="false" afterPath="$PROJECT_DIR$/avisos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DB/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DB/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dao/Implementacion/OdontologoDaoH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dao/Implementacion/OdontologoDaoH2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestOdontologoEnMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestOdontologoEnMemoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,22 +43,42 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestOdontologoEnMemoria.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.OdontologoServiceTest.executor": "Run",
+    "JUnit.OdontologoServiceTest.listarOdontologoH2.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/alejo/Documents/jars/log4j-1.2.17.jar",
     "onboarding.tips.debug.path": "D:/CTD/Proyect_Back/Parcial/src/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CTD\Proyect_Back\Parcial\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CTD\Proyect_Back\Parcial\src\DB" />
+      <recent name="D:\CTD\Proyect_Back\Parcial\src" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Service" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.OdontologoServiceTest">
     <configuration name="TestOdontologoEnMemoria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestOdontologoEnMemoria" />
       <module name="Parcial" />
@@ -62,15 +86,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OdontologoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Parcial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.OdontologoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OdontologoServiceTest.listarOdontologoH2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Parcial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.OdontologoServiceTest" />
+      <option name="METHOD_NAME" value="listarOdontologoH2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OdontologoServiceTest" />
         <item itemvalue="Application.TestOdontologoEnMemoria" />
+        <item itemvalue="JUnit.OdontologoServiceTest.listarOdontologoH2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>

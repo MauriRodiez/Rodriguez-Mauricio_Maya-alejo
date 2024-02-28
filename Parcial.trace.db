@@ -1,0 +1,17 @@
+2024-02-27 22:18:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+2024-02-27 22:18:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?) [42104-214]
+2024-02-27 22:18:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+2024-02-27 23:01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ODONTOLOGOS" ya existe
+Table "ODONTOLOGOS" already exists; SQL statement:
+CREATE TABLE ODONTOLOGOS (ID INT AUTO_INCREMENT NOT NULL, MATRICULA VARCHAR(50), NOMBRE VARCHAR(100), APELLIDO VARCHAR(150)) [42101-214]
+2024-02-27 23:07:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "ODONTOLOGOS" ya existe
+Table "ODONTOLOGOS" already exists; SQL statement:
+CREATE TABLE ODONTOLOGOS (ID INT AUTO_INCREMENT NOT NULL, MATRICULA VARCHAR(50), NOMBRE VARCHAR(100), APELLIDO VARCHAR(150)) [42101-214]

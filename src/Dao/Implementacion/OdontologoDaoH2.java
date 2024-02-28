@@ -16,6 +16,10 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     private static final String SQL_INSERT_ODONTOLOGO = "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?,?,?)";
     private static final String SQL_SELECT = "SELECT * FROM ODONTOLOGOS";
     Connection connection = null;
+
+    public OdontologoDaoH2(){
+        Database.createTable();
+    }
     @Override
     public Odontologo guardar(Odontologo odontologo) {
 
